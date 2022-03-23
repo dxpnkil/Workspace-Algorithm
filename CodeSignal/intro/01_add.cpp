@@ -1,5 +1,5 @@
 /*
-    Write a function that returns the sum of two numbers
+    Write a function that returns the sum of two numbers.
     
     input:  param1 = 1; param2 = 2
     output: add(param1, param2) = 3
