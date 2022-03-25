@@ -1,6 +1,6 @@
 /*
     Given an array of integers, find the pair of adjacent
-    elements that has the largest product and return that product.
+        elements that has the largest product and return that product.
     
     input:  inputArray = [3, 6, -2, -5, 7, 3]
     output: adjacentElementsProduct(inputArray) = 21
