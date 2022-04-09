@@ -46,6 +46,5 @@ std::vector<std::vector<char>> solution(int n) {
             T[h/2][w/2-1] = T[h/2][w/2+1] = '_';
         }
     }
-    
     return n%2 ? L : T;    
 }
