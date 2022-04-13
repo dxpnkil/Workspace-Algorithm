@@ -17,6 +17,5 @@ int solution(int value1, int weight1, int value2, int weight2, int maxW) {
     if (maxW >= weight2)
         return value2;
 
-    return value1;
-    
+    return value1;  
 }
