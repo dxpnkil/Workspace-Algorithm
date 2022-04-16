@@ -9,7 +9,7 @@
   output: solution(young, beautiful, loved) = false
 */
 
-bool solution(bool young, bool beautiful, bool loved) {
+bool solution( bool young, bool beautiful, bool loved) {
     if (loved)
         return !young || !beautiful;
     else return young && beautiful;
