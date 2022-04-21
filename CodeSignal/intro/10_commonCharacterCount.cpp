@@ -5,7 +5,7 @@
     output: commonCharacterCount(s1, s2) = 3
 */
 
-int commonCharacterCount(string s1, string s2) {
+int commonCharacterCount( string s1, string s2) {
     
     int f1[26] = { 0 };
     int f2[26] = { 0 };
