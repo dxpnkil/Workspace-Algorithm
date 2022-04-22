@@ -6,9 +6,8 @@
 */
 
 vector<int> solution(vector<int> arr) {
-    if (arr.size() < 2) {
+    if (arr.size() < 2) 
         return arr;
-    }
     int temp = arr[arr.size() - 1];
     arr[arr.size() - 1] = arr[0];
     arr[0] = temp;
