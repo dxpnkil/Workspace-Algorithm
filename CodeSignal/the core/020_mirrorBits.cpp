@@ -4,7 +4,7 @@
   input:  a = 97
   output: solution(a) = 67.
 
-  97 equals to 1100001 in binary, which is 1000011 after mirroring, and that is 67 in base 10
+  97 equals to 1100001 in binary, which is 1000011 after mirroring, and that is 67 in base 10.
 */
 
 int solution(int a) {
