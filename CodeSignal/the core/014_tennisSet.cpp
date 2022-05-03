@@ -9,11 +9,11 @@
 
 bool solution(int score1, int score2) {
     int test = max(score1, score2);
-    if(test == 6){
+    if(test == 6) {
         if(abs(score1 - score2) <= 1)
             return false;
     }
-    else if (test == 7){
+    else if (test == 7) {
         if(abs(score1 - score2) > 2 || score1 == score2)
             return false;
     }
