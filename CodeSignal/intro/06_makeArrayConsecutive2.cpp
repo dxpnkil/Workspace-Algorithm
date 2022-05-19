@@ -7,7 +7,7 @@
 
 int makeArrayConsecutive2(vector<int> statues) {
     sort (statues.begin(), statues.end());
-    int x= statues.size();
+    int x = statues.size();
     int res = statues[x-1] - statues[0] +1 - x;
     return res;
 }
