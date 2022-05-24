@@ -17,10 +17,7 @@ int matrixElementsSum(vector<vector<int>> matrix) {
         for(int j =0; j<row; j++){
             if (matrix[j][i] != 0){
                 res += matrix[j][i];
-            }
-            else{
-                break;
-            }
+            else break;
         }
     }
     return res;
