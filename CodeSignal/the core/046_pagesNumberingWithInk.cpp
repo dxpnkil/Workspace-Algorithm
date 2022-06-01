@@ -17,7 +17,7 @@ int countDigit(int n){
     return res; 
 }
 int solution(int current, int numberOfDigits) {
-    while(numberOfDigits >= countDigit(current)){
+    while (numberOfDigits >= countDigit(current)) {
         numberOfDigits -= countDigit(current);
         ++current;
     }
