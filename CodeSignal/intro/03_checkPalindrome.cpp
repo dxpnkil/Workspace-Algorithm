@@ -11,8 +11,8 @@ bool checkPalindrome(string inputString) {
     high = inputString.length() - 1;
     low = 0;
     
-    while(high > low){
-        if( inputString[high] != inputString[low]){
+    while (high > low){
+        if ( inputString[high] != inputString[low]){
             flag = false;
             break;
         }
