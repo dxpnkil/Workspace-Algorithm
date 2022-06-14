@@ -8,7 +8,7 @@ int main() {
     cin.tie(0);
     
     cin >> m >> n >> a;
-    cout << ((m+a-1)/a) * ((n+a-1)/a);
+    cout << ((m+a-1) / a) * ((n+a-1) / a);
     
     return 0;
 }
