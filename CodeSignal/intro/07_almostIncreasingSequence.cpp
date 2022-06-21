@@ -16,7 +16,7 @@ bool almostIncreasingSequence(vector<int> sequence) {
         removeCount += 1;
     }
     int a = sequence.size();
-    for(int j =2; j<a; j++){
+    for(int j = 2; j < a; j++){
         if(sequence[j - 1] >= sequence[j]){
             removeCount++;
             if(sequence[j - 2] >= sequence[j]){
