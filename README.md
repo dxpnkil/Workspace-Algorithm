@@ -1,2 +1,1 @@
-# CP-Practice
-My CP solutions
+# I'm Coding 🌷
